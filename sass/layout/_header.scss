@@ -1,0 +1,41 @@
+.header {
+  padding: 1rem 3rem;
+  display: flex;
+
+  &__logo-box {
+    flex: 1 0 auto;
+  }
+  justify-content: space-between;
+}
+
+.navigation {
+  flex: 1 0 auto;
+
+  &__list {
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+    margin: 0 1.5rem;
+  }
+}
+
+.logo {
+  display: flex;
+  &__img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  &__text {
+    margin-left: 1rem;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+}
